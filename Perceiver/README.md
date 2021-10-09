@@ -7,14 +7,14 @@ ReadMe:
 
       Perceiver use data augmentation, Feedforward network, patch creation and encoding of patch layer. To build the Perceiver model you need to implement Cross-attention, Transformer module.
 
-2. Run the code using the CIFAR-100 dataset with GPU runtime, 50 epochs. 
+2. Run the code using the CIFAR-100 dataset with colab GPU runtime, 10 epochs. 
 
       Results : 1 epoch took 4Hrs and didnt complete the one epoch run.
 
       Epoch 1/10
         404/704 [================>.............] - ETA: 4:44:34 4Hrs - loss: 4.4256 - acc: 0.0418 - top5-acc: 0.1474
 
-3. Use Weights and Biases to run the code with GPU runtime, 10 epochs.
+3. Use Weights and Biases to run the code with GPU runtime, 50 and 10 epochs.
 
       Hyperparameters use first run : 
 
