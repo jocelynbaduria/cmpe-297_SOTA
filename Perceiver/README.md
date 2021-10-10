@@ -71,3 +71,26 @@ https://github.com/wandb/client/archive/feature/code-save.zip
 
 B. Perceiver IO model code in video, audio implementation 
 
+1. Reproduce the sample code under the Apache license Version 2.0 to understand the implementation in video audio.
+
+2. Install dependencies for Colab and Wandb, Imports needed modules including for Weights and Bias.
+
+3. Fetch the open source videos from UCF101 dataset.
+
+4. Load the video and audio from UCF.
+
+5. Define the Kinetics 700 classes of videos.
+
+6. Visualize the sample video audio. 
+
+Results : video of a lady putting eyeshadow makeup.
+
+7. Define the Model Video autoencoder.
+
+8. Apply the reconstruction model to video.
+
+9. Load the parameters, and define the labels of video from Kinetics 700 labels.
+
+10. Autoencode the entire video, one chunk at a time.
+
+11. Visualize the reconstructed video.
