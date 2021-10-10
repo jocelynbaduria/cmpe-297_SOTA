@@ -83,7 +83,7 @@ B. Perceiver IO model code in video, audio implementation
 
 6. Visualize the sample video audio. 
 
-Results : video of a lady putting eyeshadow makeup.
+   Results : video of a lady putting eyeshadow makeup.
 
 7. Define the Model Video autoencoder.
 
@@ -92,5 +92,13 @@ Results : video of a lady putting eyeshadow makeup.
 9. Load the parameters, and define the labels of video from Kinetics 700 labels.
 
 10. Autoencode the entire video, one chunk at a time.
+ 
+    Results : Using Wandb and GPU cannot autoencode the entire video.
+    The colab crashed.
 
 11. Visualize the reconstructed video.
+
+    This will not show the entire video since the autoencode did not finish the running of code.
+    
+Conclusion : The Perceiver application needs a high compute for video autoencoding.
+	     Frame video was shown after sampling of 16 frames of sample video. 
