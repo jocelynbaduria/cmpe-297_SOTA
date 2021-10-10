@@ -99,3 +99,6 @@ B. Perceiver IO model code in video, audio implementation
 11. Visualize the reconstructed video.
 
     This will not show the entire video since the autoencode did not finish the running of code.
+    
+Conclusion : The Perceiver application needs a high compute for video autoencoding.
+	     Frame video was shown after sampling of 16 frames of sample video. 
