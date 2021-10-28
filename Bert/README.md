@@ -71,3 +71,13 @@ Pre-trained model gradio sample : https://github.com/kamalkraj/BERT-SQuAD
 6. Use Pretrained model sample and Initialize Weights and biases for tracking of training.
 7. Add gradio app for Testing
 ![Screen Shot 2021-10-27 at 6 59 12 PM](https://user-images.githubusercontent.com/62075076/139173156-42430f3a-8161-4ba2-a669-f6ab70580d1c.png)
+
+C. GPT-2 Text Generation 
+
+1. Install module gradio, wandb and transformer
+2. Initialize  weights and biases (id = bert_pretrained)
+![Screen Shot 2021-10-27 at 9 08 45 PM](https://user-images.githubusercontent.com/62075076/139185355-9c12d949-0175-4d2b-a7d3-f7447e7626ae.png)
+4. Load the GPT-2 model and create a funtion for text generation
+5. Add Gradio app Interface for Testing GPT-2.
+![Screen Shot 2021-10-27 at 8 50 50 PM](https://user-images.githubusercontent.com/62075076/139185241-34fc5ad9-5be1-4746-879b-7e096665abfc.png)
+
