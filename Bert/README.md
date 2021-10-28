@@ -1,6 +1,7 @@
 A. Transformer MLM and NSP Training
 
-Reference : https://github.com/jamescalam/transformers/blob/main/course/training/08_mlm_and_nsp_training.ipynb
+Reference : 
+https://github.com/jamescalam/transformers/blob/main/course/training/08_mlm_and_nsp_training.ipynb
 
 https://www.youtube.com/watch?v=1gN1snKBLP0
 
@@ -53,9 +54,13 @@ https://www.youtube.com/watch?v=1gN1snKBLP0
     
 B. Question and Answering
 Reference :
+
 https://arxiv.org/pdf/1810.04805.pdf
+
 https://huggingface.co/transformers/model_doc/bert.html?highlight=bertforquestionanswering#transformers.BertForQuestionAnswering
+
 https://colab.research.google.com/drive/1uSlWtJdZmLrI3FCNIlUHFxwAJiSu2J0-#scrollTo=6_mAnIPKaXyw
+
 Pre-trained model gradio sample : https://github.com/kamalkraj/BERT-SQuAD
 
 1. Install some module gradio app and weights and biases for experiment tracking, and hugging face transformers library.
