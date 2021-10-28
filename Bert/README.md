@@ -81,3 +81,27 @@ C. GPT-2 Text Generation
 5. Add Gradio app Interface for Testing GPT-2.
 ![Screen Shot 2021-10-27 at 8 50 50 PM](https://user-images.githubusercontent.com/62075076/139185241-34fc5ad9-5be1-4746-879b-7e096665abfc.png)
 
+D. Bart Text Summarizer
+
+Reference: 
+
+https://huggingface.co/facebook/bart-large-cnn
+
+https://huggingface.co/google/pegasus-cnn_dailymail
+
+https://towardsdatascience.com/building-nlp-web-apps-with-gradio-and-hugging-face-transformers-59ce8ab4a319
+
+https://github.com/chuachinhon/gradio_nlp/blob/main/notebooks/2.0_gradio_parallel_summaries.ipynb
+
+1. Import Libraries and install some module gradio, wandb and transformers.
+
+2. Define text cleaning and Summarization functions.
+
+3. Initialize Weights and Bias and use Hugging Face Pipeline to implement the pre-trained model facebook/bart-large-cnn and google/pegasus-cnn_dailymail.
+
+![Screen Shot 2021-10-28 at 2 46 19 PM](https://user-images.githubusercontent.com/62075076/139341082-f2f90ee9-0c77-4a84-8b79-a0c1fd11f8ce.png)
+
+4. Launch both model facebook and google text sumarizer for comparison using gradio App for testing.
+![Screen Shot 2021-10-28 at 2 36 19 PM](https://user-images.githubusercontent.com/62075076/139340605-2518add4-988c-4d3f-8e50-0fda2ff51331.png)
+
+
