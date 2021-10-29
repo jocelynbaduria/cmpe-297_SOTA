@@ -66,7 +66,7 @@ Pre-trained model gradio sample : https://github.com/kamalkraj/BERT-SQuAD
 1. Install some module gradio app and weights and biases for experiment tracking, and hugging face transformers library.
 2. Load Fine-Tuned BERT-large.
 3. Ask a simple question.
-4. Initialize the Weights and Biases for tracking of training.
+4. Initialize the Weights and Biases for tracking of training (id="bert_pretrained")
 
 ![Screen Shot 2021-10-28 at 8 36 27 PM](https://user-images.githubusercontent.com/62075076/139371639-aaa4a609-5bd8-478d-aa9c-9f731574c48b.png)
 
