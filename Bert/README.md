@@ -111,13 +111,11 @@ E. Wav2Vec Audio Transcribing
 
 Reference: 
 
-https://huggingface.co/facebook/bart-large-cnn
-
-https://huggingface.co/google/pegasus-cnn_dailymail
+https://huggingface.co/models?search=wav2vec2
 
 https://towardsdatascience.com/building-nlp-web-apps-with-gradio-and-hugging-face-transformers-59ce8ab4a319
 
-https://github.com/chuachinhon/gradio_nlp/blob/main/notebooks/2.0_gradio_parallel_summaries.ipynb
+https://github.com/chuachinhon/gradio_nlp/blob/main/notebooks/4.0_gradio_audio_text.ipynb
 
 1. Import Libraries and install some module gradio, wandb and transformers.
 
